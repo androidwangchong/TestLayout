@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_organization"
+    app:startDestination="@id/organizationFragment2">
+
+    <fragment
+        android:id="@+id/organizationFragment2"
+        android:name="com.example.testlayout.fragment.organizationFragment"
+        android:label="fragment_organization"
+        tools:layout="@layout/fragment_organization" >
+        <action
+            android:id="@+id/action_organizationFragment2_self"
+            app:destination="@id/organizationFragment2" />
+    </fragment>
+</navigation>

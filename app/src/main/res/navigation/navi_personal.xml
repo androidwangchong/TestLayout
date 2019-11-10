@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/personalFragment">
+
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.testlayout.fragment.PersonalFragment"
+        android:label="personalFragment"
+        tools:layout="@layout/fragment_personal" >
+        <action
+            android:id="@+id/action_personalFragment_self"
+            app:destination="@id/personalFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim">
+            <argument
+                android:name="folder_name"
+                android:defaultValue="个人空间" />
+            <argument
+                android:name="content_text"
+                android:defaultValue="0" />
+        </action>
+        <argument
+            android:name="folder_name"
+            app:argType="string"
+            android:defaultValue="个人空间" />
+        <argument
+            android:name="content_text"
+            app:argType="string"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

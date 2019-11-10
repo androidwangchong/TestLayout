@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestLayout</string>
+    <string name="user_name">username</string>
+    <string name="login_button_text">login</string>
+    <string name="user_agreement">User Agreement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homefragment">HomeFragment</string>
+</resources>

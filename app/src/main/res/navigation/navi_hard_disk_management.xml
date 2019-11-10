@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_hard_disk_management"
+    app:startDestination="@id/hardDiskManagementFragment2">
+
+    <fragment
+        android:id="@+id/hardDiskManagementFragment2"
+        android:name="com.example.testlayout.fragment.HardDiskManagementFragment"
+        android:label="fragment_hard_disk_management"
+        tools:layout="@layout/fragment_hard_disk_management" />
+</navigation>

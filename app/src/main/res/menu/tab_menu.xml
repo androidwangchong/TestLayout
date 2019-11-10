@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/personalFragment"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="个人空间" />
+    <item
+        android:id="@+id/organizationFragment"
+        android:icon="@drawable/ic_filter_2_black_24dp"
+        android:title="组织空间" />
+    <item
+        android:id="@+id/hardDiskManagementFragment"
+        android:icon="@drawable/ic_filter_3_black_24dp"
+        android:title="硬盘管理" />
+</menu>
