@@ -72,7 +72,7 @@ class TwoActivity : AppCompatActivity() {
             layout.visibility = if (index == i) {
                 View.VISIBLE
             } else {
-                View.GONE   
+                View.GONE
             }
         }
     }
